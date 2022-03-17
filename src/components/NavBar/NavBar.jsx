@@ -1,7 +1,7 @@
 const NavBar = (props) => {
     return (
         <header className="App-header">
-           <a href="/starships" id='title'>Star Wars Starships</a>
+           <a href="/starships" id='title'>STAR WARS STARSHIPS</a>
         </header>
     )
 }

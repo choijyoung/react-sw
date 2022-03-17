@@ -49,3 +49,43 @@
     transform: rotate(360deg);
   }
 }
+
+#button {
+  float: left;
+  display: flex;
+  justify-content: center;
+  margin: 35px;
+  margin-bottom: 40px;
+  padding: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(27, 60, 65);
+  width: 200px;
+  height: 30px;
+  text-decoration: none;
+}
+
+#detail {
+  background-color: rgb(27, 60, 65);
+  color: white;
+  padding-top: 100px;
+  height: 300px;
+  width: 600px;
+  border: 1px solid black;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 570px;
+
+}
+
+#link-button {
+  border: 1px solid black;
+  padding: 10px;
+  color: black;
+  background-color: white;
+}
+
+h3 {
+  text-align: center;
+}
