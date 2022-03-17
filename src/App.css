@@ -67,15 +67,14 @@
 }
 
 #detail {
+  align-items: center;
   background-color: rgb(27, 60, 65);
   color: white;
   padding-top: 100px;
-  height: 300px;
+  height: 600px;
   width: 600px;
   border: 1px solid black;
   text-align: center;
-  margin-top: 100px;
-  margin-left: 570px;
 
 }
 
