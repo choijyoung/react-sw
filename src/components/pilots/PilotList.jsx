@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { getPilots } from '../../services/sw-api';
 
 const Pilots = (props) => {
     const [pilotList, setPilotList] = useState([])
     const pilotUrls = props.pilot
     
-
-
-    getPilots(pilotUrls).then(pilots => setPilotList(pilots))
+    useEffect(() => 
+        getPilots(pilotUrls).then(pilots => setPilotList(pilots))
+)
   return (
     <>
         {pilotList.length ?
